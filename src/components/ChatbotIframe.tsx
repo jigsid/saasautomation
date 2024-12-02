@@ -1,12 +1,12 @@
-"use client"
-import React, { useEffect } from 'react';
+"use client";
+import React, { useEffect } from "react";
 
 const ChatbotIframe = () => {
   useEffect(() => {
     const iframe = document.createElement("iframe");
 
     const iframeStyles = (styleString: string) => {
-      const style = document.createElement('style');
+      const style = document.createElement("style");
       style.textContent = styleString;
       document.head.append(style);
     };
@@ -25,19 +25,22 @@ const ChatbotIframe = () => {
     `);
 
     iframe.src = "https://jj-smartrep.vercel.app/chatbot";
-    iframe.classList.add('chat-frame');
+    iframe.classList.add("chat-frame");
     document.body.appendChild(iframe);
 
     const handleMessage = (e: MessageEvent) => {
       if (e.origin !== "https://jj-smartrep.vercel.app") return null;
       try {
         const dimensions = JSON.parse(e.data);
-        iframe.style.width = dimensions.width + 'px';
-        iframe.style.height = dimensions.height + 'px';
+        iframe.style.width = dimensions.width + "px";
+        iframe.style.height = dimensions.height + "px";
       } catch (error) {
-        console.error('Invalid message data:', e.data);
+        console.error("Invalid message data:", e.data);
       }
-      iframe.contentWindow?.postMessage("53145645-0e45-4c8e-bd01-d71c1ca174cc", "https://jj-smartrep.vercel.app/");
+      iframe.contentWindow?.postMessage(
+        "53145645-0e45-4c8e-bd01-d71c1ca174cc",
+        "https://jj-smartrep.vercel.app/"
+      );
     };
 
     window.addEventListener("message", handleMessage);
@@ -45,7 +48,9 @@ const ChatbotIframe = () => {
     // Cleanup the event listener and iframe on component unmount
     return () => {
       window.removeEventListener("message", handleMessage);
-      document.body.removeChild(iframe);
+      if (document.body.contains(iframe)) {
+        document.body.removeChild(iframe);
+      }
     };
   }, []);
 
