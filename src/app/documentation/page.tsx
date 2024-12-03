@@ -290,9 +290,9 @@ const DocumentationPage: React.FC = () => {
           </p>
           <p>
             Email:{" "}
-            <Link href="mailto:support@yourproject.com">
+            <Link href="mailto:jigsawsmma@gmail.com">
               <span className="text-blue-500 hover:underline">
-                support@yourproject.com
+                jigsawsmma@gmail.com
               </span>
             </Link>
           </p>
@@ -306,7 +306,7 @@ const DocumentationPage: React.FC = () => {
           </p>
           <p>
             Support Center:{" "}
-            <Link href="https://support.yourproject.com" passHref>
+            <Link href="hhttps://mishra19.netlify.app/" passHref>
               <span
                 className="text-blue-500 hover:underline"
                 rel="noopener noreferrer"
