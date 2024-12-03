@@ -1,11 +1,11 @@
-import { authMiddleware } from '@clerk/nextjs'
+import { authMiddleware } from "@clerk/nextjs/server";
 
 export default authMiddleware({
   publicRoutes: [
-    '/',
-    '/api/clerk-webhook',
-    '/api/drive-activity/notification',
-    '/api/payment/success',
+    "/",
+    "/api/clerk-webhook",
+    "/api/drive-activity/notification",
+    "/api/payment/success",
     "/pricing",
     "/products",
     "/clients",
@@ -14,23 +14,23 @@ export default authMiddleware({
     "/enterprise",
     "/privacy",
     "/terms",
-    '/api/cron',
-    '/api/create-user',  // Add this route if it should be publicly accessible
-    '/api/update-user'   // Add this route if it should be publicly accessible
+    "/api/cron",
+    "/api/create-user", // Add this route if it should be publicly accessible
+    "/api/update-user", // Add this route if it should be publicly accessible
   ],
   ignoredRoutes: [
-    '/api/auth/callback/discord',
-    '/api/auth/callback/notion',
-    '/api/auth/callback/slack',
-    '/api/flow',
-    '/api/cron/wait',
-    '/api/cron',
+    "/api/auth/callback/discord",
+    "/api/auth/callback/notion",
+    "/api/auth/callback/slack",
+    "/api/flow",
+    "/api/cron/wait",
+    "/api/cron",
   ],
-})
+});
 
 export const config = {
-  matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
-}
+  matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
+};
 
 // https://www.googleapis.com/auth/userinfo.email
 // https://www.googleapis.com/auth/userinfo.profile
