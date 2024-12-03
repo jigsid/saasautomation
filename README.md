@@ -1,11 +1,11 @@
+<a href="https://automate69.vercel.app/">Website</a>
+
 <div align="center" id="top" className="mb-10">
 <img src="./public/fuzzieLogo.png" alt="icon" width="150" height="150" />
 
 &#xa0;
 
   <img src="./public/temp-banner.png" alt="preview" />
-
-<a href="https://automate69.vercel.app/">Demo</a>
 
 </div>
 
