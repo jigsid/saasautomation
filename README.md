@@ -5,7 +5,7 @@
 
   <img src="./public/temp-banner.png" alt="preview" />
 
-<a href="https://jj-zapflow.vercel.app/">Demo</a>
+<a href="https://automate69.vercel.app/">Demo</a>
 
 </div>
 
@@ -13,24 +13,24 @@
 
 ## Overview
 
-ZapFlow is a SaaS Automation Builder, a powerful and versatile platform designed to automate and streamline your business processes. Built from the ground up without relying on integration libraries, this builder offers a seamless and customizable experience for creating automation flows. Whether you are a small business or a large enterprise, our builder has the features you need to connect various services and automate your workflows efficiently.
+Automate is a SaaS Automation Builder, a powerful and versatile platform designed to automate and streamline your business processes. Built from the ground up without relying on integration libraries, this builder offers a seamless and customizable experience for creating automation flows. Whether you are a small business or a large enterprise, our builder has the features you need to connect various services and automate your workflows efficiently.
 
 ## Features
 
 ### User Authentication & Management
+
 - **Clerk Authentication:** Secure and efficient user authentication.
 - **Neon Tech:** Cutting-edge technology stack for robust performance.
 
 ### Integrations
+
 - **Google Drive:** Connect users' Google Drive to the app and watch for changes.
 - **Slack:** Send notifications and custom messages to users' Slack channels.
 - **Discord:** Notify and send custom messages to users' Discord servers.
 - **Notion:** Create entries in users' Notion databases.
 
-### Payments
-- **Stripe Integration:** Handle month-to-month subscriptions and payments based on credits consumed.
-
 ### User Interface
+
 - **Beautiful Redesigned Node Interface:** Intuitive and aesthetically pleasing interface for creating automation flows.
 - **Drag and Drop Node Builder:** Easily create and manage nodes with a drag-and-drop interface.
 - **Mini Map:** View all workflow nodes on a mini map for better navigation.
@@ -41,9 +41,9 @@ ZapFlow is a SaaS Automation Builder, a powerful and versatile platform designed
 - **Functioning Beautiful Landing Page:** An attractive and functional landing page to showcase your automations.
 
 ### Deployment & Hosting
+
 - **Ngrok:** Secure tunnel for localhost deployment.
 - **Next.js 14:** Latest version for optimized and scalable web applications.
-- **Bun:** Fast and efficient JavaScript runtime for server-side operations.
 
 ## How It Works
 
@@ -56,7 +56,4 @@ ZapFlow is a SaaS Automation Builder, a powerful and versatile platform designed
 
 ## Conclusion
 
-ZapFlow is a SaaS Automation Builder is your go-to platform for creating and managing powerful automation workflows. With its robust integrations, user-friendly interface, and customizable features, it caters to the needs of businesses looking to streamline their operations and enhance productivity. Start building your automation flows today and experience the efficiency of seamless integration and automation.
-
-
-© 2024 Jeff Jiang. All rights reserved.
+Automate is a SaaS Automation Builder is your go-to platform for creating and managing powerful automation workflows. With its robust integrations, user-friendly interface, and customizable features, it caters to the needs of businesses looking to streamline their operations and enhance productivity. Start building your automation flows today and experience the efficiency of seamless integration and automation.
