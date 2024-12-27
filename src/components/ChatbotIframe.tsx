@@ -38,23 +38,20 @@ const ChatbotIframe = () => {
         console.error("Invalid message data:", e.data);
       }
       iframe.contentWindow?.postMessage(
-        "53145645-0e45-4c8e-bd01-d71c1ca174cc",
+        "f48ca40d-8e2d-4d61-a558-09f816c711ea",
         "https://jj-smartrep.vercel.app/"
       );
     };
 
     window.addEventListener("message", handleMessage);
 
-    // Cleanup the event listener and iframe on component unmount
     return () => {
       window.removeEventListener("message", handleMessage);
-      if (document.body.contains(iframe)) {
-        document.body.removeChild(iframe);
-      }
+      document.body.removeChild(iframe);
     };
   }, []);
 
-  return null; // This component does not render anything itself
+  return null;
 };
 
 export default ChatbotIframe;
