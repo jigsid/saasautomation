@@ -11,7 +11,7 @@ import ChatbotIframe from "@/components/ChatbotIframe"; // Adjust the path as ne
 const font = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Automate.",
+  title: "Automate",
   description: "Automate Your Work Now",
 };
 
