@@ -5,7 +5,6 @@ import { ThemeProvider } from "@/providers/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
 import ModalProvider from "@/providers/modal-provider";
 import { Toaster } from "@/components/ui/sonner";
-import { BillingProvider } from "@/providers/billing-provider";
 import ChatbotIframe from "@/components/ChatbotIframe"; // Adjust the path as needed
 
 const font = DM_Sans({ subsets: ["latin"] });
@@ -32,12 +31,10 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <BillingProvider>
-              <ModalProvider>
-                {children}
-                <Toaster />
-              </ModalProvider>
-            </BillingProvider>
+            <ModalProvider>
+              {children}
+              <Toaster />
+            </ModalProvider>
             <ChatbotIframe />
           </ThemeProvider>
         </body>

@@ -280,6 +280,37 @@ const DocumentationPage: React.FC = () => {
             &apos;Integrations&apos; section in your dashboard and following the
             on-screen instructions.
           </p>
+
+          <div className="space-y-4">
+            <div>
+              <h4 className="text-lg font-semibold mb-2">
+                Q: How do I get started?
+              </h4>
+              <p>
+                A: Simply sign up for a free account and you&apos;ll have access
+                to all features. No credit card required!
+              </p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-2">
+                Q: What integrations do you support?
+              </h4>
+              <p>
+                A: We currently support integrations with Google Drive, Slack,
+                Discord, and Notion. We&apos;re constantly adding more
+                integrations.
+              </p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-2">
+                Q: How can I get help if I&apos;m stuck?
+              </h4>
+              <p>
+                A: You can reach out to our support team through the help icon
+                in the dashboard. We typically respond within 24 hours.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="mb-8">

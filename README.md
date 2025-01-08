@@ -13,7 +13,7 @@
 
 ## Overview
 
-Automate is a SaaS Automation Builder, a powerful and versatile platform designed to automate and streamline your business processes. Built from the ground up without relying on integration libraries, this builder offers a seamless and customizable experience for creating automation flows. Whether you are a small business or a large enterprise, our builder has the features you need to connect various services and automate your workflows efficiently.
+Automate is a SaaS Automation Builder, a powerful and versatile platform designed to automate and streamline your business processes. Built from the ground up without relying on integration libraries, this builder offers a seamless and customizable experience for creating automation flows. Whether you are a small business or a large enterprise, our builder has all the features you need to connect various services and automate your workflows efficiently - completely free!
 
 ## Features
 
@@ -51,9 +51,8 @@ Automate is a SaaS Automation Builder, a powerful and versatile platform designe
 2. **Create Automations:** Use the drag-and-drop node builder to create a sequence of actions that fire after a trigger event.
 3. **Monitor Changes:** Watch for changes in connected services and automate responses accordingly.
 4. **Notifications & Messages:** Send notifications and custom messages via Slack and Discord.
-5. **Manage Payments:** Utilize Stripe for managing subscriptions and handling payments based on credits consumed.
-6. **Customize Interface:** Personalize your workflow with an expandable sidebar, infinite canvas, and light/dark mode.
+5. **Customize Interface:** Personalize your workflow with an expandable sidebar, infinite canvas, and light/dark mode.
 
 ## Conclusion
 
-Automate is a SaaS Automation Builder is your go-to platform for creating and managing powerful automation workflows. With its robust integrations, user-friendly interface, and customizable features, it caters to the needs of businesses looking to streamline their operations and enhance productivity. Start building your automation flows today and experience the efficiency of seamless integration and automation.
+Automate is a free SaaS Automation Builder that serves as your go-to platform for creating and managing powerful automation workflows. With its robust integrations, user-friendly interface, and customizable features, it caters to the needs of businesses looking to streamline their operations and enhance productivity. Start building your automation flows today and experience the efficiency of seamless integration and automation - all at no cost!
